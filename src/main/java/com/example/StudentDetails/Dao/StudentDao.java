@@ -20,7 +20,7 @@ public class StudentDao {
 
 	public String PostDao(Student age) {
 		sr.save(age);
-		return "Save Successfully";
+		return "Save Successfully age";
 	}
 	public String getByRool(int roll) {
 		return sr.getByRool(roll);
